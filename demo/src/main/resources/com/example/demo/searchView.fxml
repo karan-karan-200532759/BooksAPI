@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchor" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SearchController">
+   <children>
+      <Label fx:id="lblWelcome" layoutX="261.0" layoutY="29.0" text="Open Books Database" />
+      <Label fx:id="lblTitle" layoutX="28.0" layoutY="86.0" styleClass="style1" text="Book Title:" />
+      <TextField fx:id="txtTitle" layoutX="125.0" layoutY="82.0" prefHeight="26.0" prefWidth="330.0" promptText="Type book name" />
+      <Button fx:id="buttonFetchInfo" layoutX="476.0" layoutY="82.0" mnemonicParsing="false" onAction="#fetchBooks" styleClass="button" text="Get Books Info" />
+      <ListView fx:id="listBooks" layoutX="28.0" layoutY="127.0" onMouseClicked="#showDetails" prefHeight="314.0" prefWidth="364.0" />
+      <Label layoutX="28.0" layoutY="459.0" text="Books Found: 0" fx:id="lblCounter" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+#anchor {
+    -fx-background-color: beige;
+}
+
+#lblWelcome {
+    -fx-font: normal bold 20px 'serif';
+    -fx-text-fill: maroon;
+}
+.style3
+ {
+    -fx-font: normal bold 24px 'serif';
+     -fx-text-fill: maroon;
+ }
+.style1 {
+    -fx-font: normal bold 18px 'serif';
+    -fx-text-fill: maroon;
+}
+.style2
+ {
+     -fx-text-fill: maroon;
+ }
+#listBooks
+{
+  -fx-border-radius: 10;
+    -fx-background-radius: 10;
+     -fx-font-size: 14px;
+}
+#txtTitle {
+    -fx-font-size: 14px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: #04AA6D;
+    -fx-border: none;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-text-align: center;
+    -fx-font-size: 14px;
+}
+#lblCounter
+{
+-fx-font: normal bold 20px 'serif';
+    -fx-text-fill: maroon;
+}

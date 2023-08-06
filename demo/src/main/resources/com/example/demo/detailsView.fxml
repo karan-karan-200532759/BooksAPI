@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchor" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblTitle" layoutX="48.0" layoutY="26.0" maxWidth="500" styleClass="style3" text="Title" wrapText="true" />
+      <Label layoutX="54.0" layoutY="125.0" styleClass="style2" text="ISBN" />
+      <Label fx:id="lblISBN" layoutX="182.0" layoutY="125.0" text="Label" />
+      <Label layoutX="54.0" layoutY="162.0" styleClass="style2" text="Author" />
+      <Label fx:id="lblAuthor" layoutX="182.0" layoutY="162.0" text="Label" />
+      <Label layoutX="54.0" layoutY="197.0" styleClass="style2" text="Publisher" />
+      <Label fx:id="lblPublisher" layoutX="182.0" layoutY="197.0" text="Label" />
+      <Label layoutX="54.0" layoutY="233.0" styleClass="style2" text="Publish Year" />
+      <Label fx:id="lblYear" layoutX="182.0" layoutY="233.0" text="Label" />
+      <Label layoutX="54.0" layoutY="272.0" styleClass="style2" text="Description" />
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="9.0" layoutY="360.0" mnemonicParsing="false" onAction="#moveBack" prefHeight="26.0" prefWidth="149.0" text="Back" />
+      <Label fx:id="lblDescription" layoutX="181.0" layoutY="272.0" maxWidth="350" wrapText="true" />
+   </children>
+</AnchorPane>
